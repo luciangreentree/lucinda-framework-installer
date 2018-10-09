@@ -1,2 +1,3 @@
 # lucinda-framework-installer
-Installer for Lucinda Framework
+
+Console installer for Lucinda Framework

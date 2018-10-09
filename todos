@@ -1,0 +1,14 @@
+1. make db installation compatible with vendors other than mysql
+2. package installer into a PHAR file
+3. report logs into logs/ folder
+
+
+// echo PHP_OS; // http://thisinterestsme.com/php-detect-operating-system-windows/ => where to locate hosts file (/etc/hosts) (Linux, Darwin, Win*)
+// $_SERVER["USERNAME"] // determines username running script => determine if elevation is needed to modify hosts & vhosts
+// Is shared host? // https://stackoverflow.com/questions/16197663/what-is-var-www-html => where to install site (web root: /var/www/html)
+// $_SERVER['DOCUMENT_ROOT'] // determines webroot (empty if called from console
+// which composer // is composer installed?
+// composer create-project lucinda/framework {DOCUMENT_ROOT}/{SITE_NAME}
+// create folder compilations and chmod ??? to make folder writable by apache2
+
+// new ProjectCreator(new ConsolePrompter());
